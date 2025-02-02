@@ -1,0 +1,12 @@
+&pro_micro {
+    oled_display: oled_display {
+        compatible = "ssd1306";
+        label = "SSD1306";
+        height = <32>;
+        width = <128>;
+        segment-offset = <0>;
+        page-offset = <0>;
+        rotation = <180>;
+        i2c = <&i2c1>;
+    };
+};
