@@ -1,0 +1,11 @@
+{
+    chosen {
+        zmk,backlight = &pwm_leds;
+    };
+
+    pwm_leds: pwm_leds {
+        compatible = "pwm-leds";
+        label = "Backlight LEDs";
+        status = "okay";
+    };
+};
